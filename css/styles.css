@@ -1,0 +1,120 @@
+*{
+    font-family: Raleway;
+}
+
+.logo{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#topnav {
+    width: 400px;
+    height: 100px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+a{
+    color: #0065FC;
+    text-decoration: none;
+}
+
+#signup{
+    font-weight: bold;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.subtitle{
+    font-weight: lighter;
+}
+
+#mapmarker{
+    font-size: 12px;
+    position: relative;
+    display: inline-block;
+    background-color: #f2f2f2;
+    height:16px;
+    width: auto;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align:center ;
+    justify-content: center;
+    padding:9px 9px 13px 12px;
+}
+
+.searchButton {
+    font-weight: 800;
+    position: relative;
+    display: inline-block;
+    background-color: #0065FC;
+    border-left-color: white;
+    border-radius:14px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px 8px 11px 8px;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+  }
+
+  .search{
+      font: 900 black;
+      font-size: 16px;
+      position: relative;
+      display: inline-block;
+      border: solid 1px #f2f2f2;
+      height: 34px;
+      width: auto;
+      border-right-color: white;
+      border-left-color: white;
+      margin: auto;
+  }
+
+  .wrapperSearch{
+      display: inline-flex;
+  }
+
+.filter{
+  color: black;
+  font-weight: 800;
+  display: inline-block;
+  padding: 0px 25px 0px 25px;
+  height:auto;
+  width:auto;
+  font-size: 10px;
+  line-height:30px;
+  border-radius: 50px;
+  border:solid 2px #f2f2f2;
+}
+
+.filterIcon{
+    color: #0065FC;
+    position: relative;
+    text-align: center;
+    float: left;
+    margin: 0 10px 0 -25px;
+    height:auto;
+    width: 30px;
+    border-radius: 60%;
+    background-color:#DEEBFF ;
+}
+
+.info{
+    color: #0065FC;
+    border: 2px solid #f2f2f2;
+    background-color: white;
+    border-radius: 50px;
+    padding: 3px 10px;
+}
