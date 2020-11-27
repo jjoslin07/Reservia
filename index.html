@@ -17,7 +17,7 @@
 
 	<body>
 		<!--Header Logo and Navigation-->
-		<header class="logoHead">
+		<div class="logoHead">
 			<img
 				class="logoImg"
 				src="/img/logo/Reservia@3x.png"
@@ -25,24 +25,21 @@
 				height="auto"
 				alt="Reservia Logo"
 			/>
-		</header>
-			<nav id="topnav">
+		</div>
+			<div class="topnav">
 				<a class="navlink" id="active" href="#">Accommodations</a>
 				<a class="navlink" href="#">Activities</a>
 				<a class="navlink" id="signup" href="#">Sign Up</a>
-			</nav>
-			<header class="searchHead">
+			</div>
+			<div class="searchHead"> 
 			<h1 class="searchtitle">Find a place for your dream vacation</h1>
 			<p class="searchsubtitle">Downtown or in nature</p>
-		</header>
-		<div class="wrapperSearch">
-			<span><i class="fas fa-map-marker-alt" id="mapmarker"></i></span>
-			<span
-				><input class="search" placeholder="Marseille, France" type="text"
-			/></span>
-			<span><p class="searchButton">Search</p></span>
+			</div>
+		<div class="searchbar">
+			<i class="fas fa-map-marker-alt" id="mapmarker"></i>
+			<input class="search" placeholder="Marseille, France" type="text"/>
+			<btn class="searchButton">Search</btn>
 		</div>
-		<header class="filterHeader">
 			<div class="filterbod">
 				<p>
 					Filters
@@ -66,9 +63,8 @@
 					>
 				</p>
 			</div>
-		</header>
-		<div>
-			<p class="subtitle">
+		<div class="subtitle">
+			<p>
 				<span class="info"><i class="fas fa-info"></i></span> More than 500
 				accommodations are available in this city
 			</p>
@@ -242,7 +238,7 @@
 					><img
 						src="img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
 						alt=""
-						style="width: 100%"				
+						style="width: 100%"			
 						/>
 					<h3>Pomègues Fort</h3></a
 				>
@@ -276,7 +272,6 @@
 					/>
 					<h3>Notre-Dame-de-la-Garde</h3></a
 				>
-			</div>
 			<div class="activitycard activitycard6">
 				<a href="#"
 					><img
@@ -288,23 +283,26 @@
 				>
 				</div>
 		</div>
+		</div>
 		<footer class="footer">
-			<div class="footer1">
-				<h3>About</h3>
-				<a href="#">Site Map</a>
-				<a href="#">General Terms and Conditions</a>
-				<a href="#">Data and Privacy</a>
-			</div>
-			<div class="footer2">
-				<h3>Our Accommodations</h3>
-				<a href="#">Quality Assessment</a>
-				<a href="#">You have a hotel?</a>
-			</div>
-			<div class="footer3">
-				<h3>Assistance</h3>
-				<a href="#">Help Desk</a>
-				<a href="#">Contact Us</a>
-			</div>
+			<div class="row">
+				<div class="column">
+				  <h3>About</h3>
+				  <p><a href="#">Site Map</a></p>
+				  <p><a href="#">General Terms and Conditions</a></p>
+				  <p><a href="#">Data and Privacy</a></p>
+				</div>
+				<div class="column">
+				  <h3>Our Accommodations</h3>
+				  <p><a href="#">Quality Assessment</a></p>
+				  <p><a href="#">You have a hotel?</a></p>
+				</div>
+				<div class="column">
+				  <h3>Assistance</h3>
+				  <p><a href="#">Help Desk</a></p>
+				  <p><a href="#">Contact Us</a></p>
+				</div>
+			  </div>
 		</footer>
-	</body>
+		</body>
 </html>
