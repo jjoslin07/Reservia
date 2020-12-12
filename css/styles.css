@@ -5,8 +5,8 @@
 
 .reservia {
 	margin: auto;
-	padding: 60px 0px 0px 0px;
 	width: 80%;
+	margin-top: 25px;
 }
 .navigation {
 	display: flex;
@@ -15,7 +15,6 @@
 	height: 100%;
 	justify-content: space-between;
 	margin: 0px 70px 0px 0px;
-	padding: 0px 0px 0px 0px;
 	width: 30%;
 }
 .navigation-link {
@@ -137,24 +136,38 @@ a {
 	color: #0065fc;
 	padding: 3px 10px;
 }
-.accommodations-container {
-	align-items: center;
+.accommodations-section {
 	background-color: #f2f2f2;
 	border-radius: 20px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
 	float: left;
 	height: 650px;
-	justify-content: center;
-	margin: 0px 0px 120px 189px;
+	padding: 0px 20px 0px 20px;
+	margin: 0px 0px 0px 189px;
 	width: 52%;
+	min-width: 400px;
+}
+.accommodations-row-one {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-radius: 20px;
+}
+.accommodations-row-two {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-radius: 20px;
 }
 
 .accommodations-header {
-	left: 225px;
-	margin: auto;
-	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin: 0px 0px 0px 0px;
+	border-radius: 20px;
+}
+.accommodations-header-text {
+	margin-left: 50px;
 }
 .accommodations-card {
 	background-color: white;
@@ -164,7 +177,8 @@ a {
 	height: auto;
 	margin: 15px 0px 15px 0px;
 	transition: 0.3s;
-	width: 275px;
+	max-width: 300px;
+	min-width: 250px;
 }
 .accommodations-card img {
 	border-radius: 20px 20px 0px 0px;
@@ -184,33 +198,41 @@ a {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 }
 
-.most-popular-container {
-	align-items: center;
+.most-popular-section {
 	background-color: #f2f2f2;
+	border-radius: 20px;
+	float: right;
+	height: 650px;
+	margin: 0px 189px 0px 0px;
+	width: 26%;
+	min-width: 400px;
+}
+.most-popular-column {
 	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
-	float: right;
-	height: 650px;
-	justify-content: center;
-	margin: 0px 189px 120px 0px;
-	width: 26%;
+	justify-items: center;
+	align-items: center;
 }
 
 .most-popular-header {
-	margin: auto;
-	position: absolute;
-	right: 500px;
-	top: 485px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: flex-start;
+	margin: 0px 0px 0px 0px;
 }
 
+.most-popular-header-text {
+	margin-left: 50px;
+}
 .chartline {
-	margin: auto;
-	position: absolute;
-	right: 250px;
-	top: 500px;
+	display: flex;
+	width: auto;
+	height: 36px;
+	margin-left: auto;
+	margin-right: 50px;
+	align-self: center;
 }
-
 .most-popular-card {
 	background-color: white;
 	border: solid white 5px;
@@ -219,7 +241,8 @@ a {
 	height: 145px;
 	margin: 10px 0px 10px 0px;
 	transition: 0.3s;
-	width: 375px;
+	max-width: 375px;
+	min-width: 250px;
 }
 
 .most-popular-card img {
@@ -238,27 +261,40 @@ a {
 .most-popular-card:hover {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 }
+.activities-section {
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	height: 650px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 0px;
+	width: 80%;
+	min-width: 400px;
+}
 
 .activities-container {
 	border-radius: 20px;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
-	height: 550px;
+	flex-wrap: wrap;
+	height: 620px;
 	justify-content: space-between;
 	margin: auto;
-	margin-bottom: 60px;
-	padding: 5px;
-	width: 80%;
+	width: 100%;
 }
 
 .activities-header {
-	position: absolute;
-	margin: auto;
-	top: 1160px;
-	left: 225px;
+	display: flex;
+	border-radius: 20px;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin: 0px 0px 0px 0px;
 }
-
+.activities-header-text {
+	margin-left: 50px;
+}
 .activities-container a {
 	color: black;
 }
@@ -369,8 +405,10 @@ a {
 	background-color: #f2f2f2;
 	height: 250px;
 	margin: auto;
+	margin-top: 50px;
 	padding: 25px 0px 0px 40px;
 	width: 80%;
+	min-width: 400px;
 }
 
 .footer a {
@@ -393,34 +431,4 @@ a {
 	clear: both;
 	content: "";
 	display: table;
-}
-
-@media all and (max-width: 768px) {
-	body {
-		min-width: 350px;
-		display: flex;
-		flex-direction: column;
-		margin: 20px auto;
-	}
-	.most-popular-container {
-		display: block;
-		width: 350px;
-		margin: 20px auto;
-	}
-	.most-popular-card {
-		display: block;
-		width: 350px;
-		margin: 20px auto;
-	}
-	.activities-container {
-		display: block;
-		min-width: 350px;
-		margin: 20px auto;
-	}
-	.footer {
-		display: flex;
-		flex-direction: column;
-		min-width: 350px;
-		margin: 20px auto;
-	}
 }
