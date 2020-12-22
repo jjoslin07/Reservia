@@ -1,8 +1,8 @@
 * {
 	box-sizing: border-box;
 	font-family: Raleway;
-	/* outline: 1px solid red;
-	outline-offset: -1px; */
+	outline: 1px solid red;
+	outline-offset: -1px;
 }
 
 /*Global Attributes*/
@@ -556,8 +556,7 @@ a {
 		width: 95%;
 	}
 	.most-popular-card {
-		max-width: 40em;
-		width: auto;
+		width: 40em;
 	}
 	.most-popular-card-text {
 		width: 23em;
