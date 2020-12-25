@@ -300,7 +300,7 @@ a {
 	justify-content: flex-start;
 }
 .activities-header-text {
-	margin-left: 3rem;
+	margin-left: 10rem;
 }
 .activities-background {
 	border-radius: 1.5rem;
@@ -424,7 +424,7 @@ a {
 	.accommodations-card {
 		width: 27em;
 	}
-	/* Activities Cards 1875px- 1440px*/
+	/* Activities Cards */
 
 	.activities-background {
 		height: auto;
