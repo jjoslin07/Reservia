@@ -1,6 +1,8 @@
 * {
 	box-sizing: border-box;
 	font-family: Raleway;
+	/* outline: dotted 1px red;
+	outline-offset: -1px; */
 }
 
 /*Global Attributes*/
@@ -94,7 +96,9 @@ a {
 	padding: 1rem;
 	width: 6rem;
 }
-
+.search-icon {
+	display: none;
+}
 /* Filters*/
 
 .filter-border {
@@ -592,7 +596,6 @@ a {
 		width: 100%;
 	}
 	.filter-border {
-		width: 15em;
 	}
 	.logo {
 		width: 50%;
@@ -602,10 +605,6 @@ a {
 		gap: 0.1em;
 	}
 
-	.top-of-page {
-		flex-direction: column;
-		margin: 0 auto;
-	}
 	.hotels {
 		flex-direction: column-reverse;
 	}
@@ -676,9 +675,21 @@ a {
 	.accommodations-background {
 		background-color: white;
 	}
+	.accommodations-card {
+		width: 24em;
+	}
+	.accommodations-header-text {
+		margin: 1em auto;
+	}
 	.activitycard {
 		height: 18em;
-		width: 20em;
+		width: 24em;
+	}
+	.activities-header-text {
+		margin: 1em auto;
+	}
+	.activitycard h3 {
+		line-height: 1em;
 	}
 	.activitycard img {
 		height: 85%;
@@ -690,44 +701,53 @@ a {
 		height: auto;
 		width: 100%;
 	}
+	.column {
+		margin: 0 2em;
+	}
 	.column-2,
 	.column-4 {
 		gap: 2em;
-	}
-	.logo {
-		width: 100%;
 	}
 	.row {
 		flex-direction: column;
 	}
 	.most-popular-card {
-		width: 20em;
+		width: 24em;
 	}
 	.most-popular-card-text {
 		line-height: 1em;
-		width: 11em;
+		width: 14em;
 	}
 	.filter-row {
-		align-items: center;
+		align-items: flex-start;
 		flex-direction: column;
-	}
-	.filter-border {
-		width: 16em;
+		margin: 0 1em;
 	}
 	.hotels {
 		flex-direction: column-reverse;
 	}
-	.top-of-page {
-		flex-direction: column;
-	}
-	.navigation {
-		flex-direction: column;
-		float: none;
-		gap: 0.02em;
-		height: auto;
-		width: 100%;
+	.information-row {
+		margin: 0 1em;
 	}
 	.navigation-link:hover {
 		border-top: none;
+	}
+	.search-button {
+		color: #0065fc;
+		width: 17%;
+	}
+	.search-icon {
+		display: inline;
+		color: white;
+		font-size: 1.5em;
+		position: relative;
+		right: 2em;
+		top: 0.5em;
+	}
+	.search-row {
+		margin: 0 1em;
+	}
+	.top-title-and-subtitle {
+		margin: 0 1em;
 	}
 }
