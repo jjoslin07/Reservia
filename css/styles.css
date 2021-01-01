@@ -97,7 +97,7 @@ a {
 	width: 6rem;
 }
 .search-icon {
-	display: none;
+	color: #0065fc;
 }
 /* Filters*/
 
@@ -595,8 +595,6 @@ a {
 		margin: 0 auto;
 		width: 100%;
 	}
-	.filter-border {
-	}
 	.logo {
 		width: 50%;
 	}
@@ -727,7 +725,7 @@ a {
 		flex-direction: column-reverse;
 	}
 	.information-row {
-		margin: 0 1em;
+		margin: 1em;
 	}
 	.navigation-link:hover {
 		border-top: none;
@@ -742,12 +740,45 @@ a {
 		font-size: 1.5em;
 		position: relative;
 		right: 2em;
-		top: 0.5em;
 	}
 	.search-row {
 		margin: 0 1em;
 	}
 	.top-title-and-subtitle {
-		margin: 0 1em;
+		margin: 1em;
+	}
+	.top-of-page {
+		display: grid;
+		grid-template-rows: 6em 6em;
+	}
+	.navigation {
+		border-bottom: #f2f2f2 solid 0.25em;
+		gap: 0.01em;
+		height: 6em;
+	}
+	.navigation-link-mobile:hover {
+		position: relative;
+		top: 0.25em;
+		border-bottom: #0065fc solid 0.25em;
+	}
+	.logo {
+		position: relative;
+		left: 4em;
+		top: 2em;
+		width: 6em;
+	}
+	#signup {
+		position: relative;
+		bottom: 5em;
+		right: 2em;
+		width: 8em;
+	}
+	#activities {
+		position: relative;
+		left: 4em;
+	}
+	#accommodations {
+		position: relative;
+		left: 2em;
 	}
 }
