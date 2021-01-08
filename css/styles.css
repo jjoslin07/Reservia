@@ -7,7 +7,7 @@
 
 /*Global Attributes*/
 body {
-	margin: 0 auto;
+	margin: auto;
 	padding: 0;
 }
 .middle-of-page-section,
@@ -606,6 +606,9 @@ a {
 	.hotels {
 		flex-direction: column-reverse;
 	}
+	.accommodations-header-text {
+		margin-left: 6em;
+	}
 	.activities-container {
 		flex-direction: column;
 		gap: 2em;
@@ -613,10 +616,10 @@ a {
 	.activities-background,
 	.accommodations-background,
 	.most-popular-background {
-		border-radius: 0;
+		border-radius: 1em;
 		height: auto;
 		margin: 0 auto;
-		width: 100%;
+		width: 90%;
 	}
 	.activities-container,
 	.accommodations-container,
@@ -643,12 +646,14 @@ a {
 	.activitycard h3 {
 		line-height: 1em;
 	}
+	.column {
+		margin: 0 2em;
+	}
 	.column-2,
 	.column-4 {
 		gap: 2em;
 		height: auto;
 	}
-
 	.most-popular-card-text {
 		width: 17em;
 	}
@@ -664,8 +669,7 @@ a {
 	.filter-row,
 	.information,
 	.search-row,
-	.top-title-and-subtitle,
-	.top-of-page {
+	.top-title-and-subtitle {
 		height: auto;
 		margin: 0 auto;
 		width: 100%;
@@ -719,18 +723,21 @@ a {
 	.filter-row {
 		align-items: flex-start;
 		flex-direction: column;
-		margin: 0 1em;
+		margin: 0 auto;
+		padding: 1em;
 	}
 	.hotels {
 		flex-direction: column-reverse;
 	}
 	.information-row {
-		margin: 1em;
+		margin: 0 auto;
+		padding: 1em;
 	}
 	.navigation-link:hover {
 		border-top: none;
 	}
 	.search-button {
+		border-radius: 1em;
 		color: #0065fc;
 		width: 17%;
 	}
@@ -742,10 +749,12 @@ a {
 		right: 2em;
 	}
 	.search-row {
-		margin: 0 1em;
+		margin: 0 auto;
+		padding: 1em;
 	}
 	.top-title-and-subtitle {
-		margin: 1em;
+		margin: 0 auto;
+		padding: 1em;
 	}
 	.top-of-page {
 		display: grid;
@@ -755,30 +764,48 @@ a {
 		border-bottom: #f2f2f2 solid 0.25em;
 		gap: 0.01em;
 		height: 6em;
+		justify-content: center;
+		margin: 0 auto;
+		width: 24em;
 	}
-	.navigation-link-mobile:hover {
+	/* .navigation-link-mobile:hover {
 		position: relative;
 		top: 0.25em;
 		border-bottom: #0065fc solid 0.25em;
+	} */
+	.navigation-tab {
+		position: relative;
+		top: 0.4em;
+		border-bottom: solid #0065fc 0.2em;
+		width: 50%;
 	}
 	.logo {
 		position: relative;
-		left: 4em;
-		top: 2em;
-		width: 6em;
+		left: 2em;
+		top: 3em;
+		width: 4em;
 	}
 	#signup {
 		position: relative;
-		bottom: 5em;
+		line-height: 1em;
+		bottom: 2em;
 		right: 2em;
 		width: 8em;
+		white-space: nowrap;
 	}
 	#activities {
+		color: black;
 		position: relative;
 		left: 4em;
 	}
 	#accommodations {
 		position: relative;
 		left: 2em;
+	}
+	.info-text {
+		display: inline-flex;
+		justify-content: center;
+		margin-left: 0.5em;
+		width: 80%;
 	}
 }
