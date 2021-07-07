@@ -1,5 +1,5 @@
 # Reservia
-Project 2 OpenClassroms ➡ [Turn Mock-ups Into a Web Page](https://jjoslin07.github.io/Project-2/)
+## Project 2 OpenClassroms ➡ [Turn Mock-ups Into a Web Page](https://jjoslin07.github.io/Project-2/)
 
 ## Scenario
 Finally, you’ve found your first internship as a web developer at Reservia, a small company offering a vacation planning tool. Their site allows users to find accommodations and activities in the city of their choice. Accommodations can also be filtered by theme, for example, their budget or their atmosphere.
