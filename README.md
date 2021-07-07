@@ -99,8 +99,8 @@ The assessor will stop playing the role of Sarah five minutes before the end of 
 ⚒ Set up a development environment
 
 <div id="screenshots" align="center">
- <h2>Desktop View</h2>
+ <h3>Desktop View</h3>
  <img src="https://user-images.githubusercontent.com/73438491/124797160-d1f19380-df06-11eb-8400-c43cfdc045d7.png" alt="Reservia Desktop View" />
- <h2>Mobile View</h2>
+ <h3>Mobile View</h3>
  <img src="https://user-images.githubusercontent.com/73438491/124797184-d8800b00-df06-11eb-94d8-0ff8dc7d52d6.png" alt="Reservia Mobile View" />
  </div>
