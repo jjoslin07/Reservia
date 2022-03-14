@@ -1,5 +1,5 @@
 # Reservia
-## Project 2 OpenClassroms ➡ [Turn Mock-ups Into a Web Page](https://jjoslin07.github.io/Project-2/)
+## Project 2 OpenClassroms ➡ [Turn Mock-ups Into a Web Page](https://jjoslin07.github.io/Reservia/)
 #### Screenshots ➡ [Click Here](#screenshots)
 
 ## Scenario
